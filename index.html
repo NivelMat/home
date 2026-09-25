@@ -87,6 +87,23 @@
 			}
 			.boton-esferico:hover {
 				background: var(--color-boton-hover);
+				color: #009;
+			}
+			
+			.boton-preinscripcion {
+				background: var(--color-primario);
+				color: var(--color-boton);
+				border: none;
+				border-radius: 999px;
+				padding: 10px 28px;
+				font-size: 1em;
+				font-weight: 600;
+				cursor: pointer;
+				box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+				transition: background 0.2s, color 0.2s;
+			}
+			.boton-preinscripcion:hover {
+				background: var(--color-boton-hover);
 				color: #fff;
 			}
 
@@ -204,7 +221,11 @@
 						<details style="margin-top: 12px;">
 							<summary style="font-weight: 600; color: var(--color-primario); cursor: pointer; padding: 8px 0;">Horario</summary>
 							<div class="desplegable-contenido" style="padding: 8px 0 0 12px;">
-								<p style="margin: 6px 0;">Lunes, Miércoles y Viernes de 3:00 PM a 5:15 PM</p>
+								<p style="margin: 6px 0;">Lunes, Miércoles y Viernes. Puede elegir el horario que más guste:</p>
+								<ul class="lista-info">
+									<li>Horario 1: 1:00 PM a 3:00 PM</li>
+									<li>Horario 2: 3:00PM a 5:00 PM</li>
+								</ul>
 							</div>
 						</details>
 						<details style="margin-top: 10px;">
@@ -223,10 +244,10 @@
 				</details>
 			</div>
 		</div>
-		<a href="https://nivelmat.github.io/preinscripcion/" style="text-decoration:none;"><button class="boton-esferico">¡Preinscripciones abiertas! Conserva tu cupo.</button></a>
+		<a href="https://nivelmat.github.io/preinscripcion/" style="text-decoration:none;"><button class="boton-preinscripcion">¡Preinscribete aquí!</button></a>
 		</div>
 		<footer class="footer-nivelmat fadein delay3">
-			© 2025 NivelMat – Escuela de Matemática, UCV
+			© 2026 NivelMat – Escuela de Matemática, UCV
 		</footer>
 	</body>
 	</html>
